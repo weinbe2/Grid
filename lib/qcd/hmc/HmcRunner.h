@@ -130,7 +130,7 @@ public:
     }
 
     HybridMonteCarlo<GaugeField,IntegratorType>  HMC(HMCpar, MDynamics,sRNG,pRNG,U);
-    HMC.AddObservable(&Checkpoint);
+    //HMC.AddObservable(&Checkpoint);
     HMC.AddObservable(&PlaqLog);
     
     // Run it
